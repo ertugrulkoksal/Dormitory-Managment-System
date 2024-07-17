@@ -107,7 +107,7 @@ CREATE PROCEDURE empProcedure @wArea varchar(50), @lName varchar(50)
 AS
 SELECT * FROM Employee WHERE workingArea = @wArea AND lastName = @lName
 
-EXEC empProcedure @wArea= 'cleaner' ,@lName= 'Yýlmaz'; --example
+EXEC empProcedure @wArea= 'cleaner' ,@lName= 'YÃ½lmaz'; --example
 
 
 
